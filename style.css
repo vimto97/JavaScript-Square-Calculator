@@ -1,0 +1,32 @@
+button {
+    background: #AD133A;
+    color: white;
+  }
+  
+  button:hover {
+    background: #831d1a;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  p {
+      font-size: large;
+      align-self: center;
+  }
+  
+
+  #container {
+    height: 300px;
+    width: 360px;
+    background: #964343;
+  }
+  
+  #calculator {
+    font: large;
+    font-weight: bolder;
+  }
+
+  

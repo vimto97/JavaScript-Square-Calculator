@@ -1,5 +1,15 @@
-    // First Js code
-    console.log('Hello World');
+function square(){
+    var number = document.getElementById("number").value;
+    ans = number * number;
+    document.getElementById("total").innerHTML = ans;
+    return;
+}
 
-    let name = 'Vimal';
-    console.log(name);
+
+document.getElementById("calculate").onclick = function() {
+square();
+      
+};
+
+
+
