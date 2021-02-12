@@ -7,8 +7,12 @@ function square(){
 
 
 document.getElementById("calculate").onclick = function() {
-square();
-      
+    var number = document.getElementById("number").value;
+    if (number == 0 || number == String ){
+        alert("Please enter a number!");
+    }else{
+    square();
+    }
 };
 
 
